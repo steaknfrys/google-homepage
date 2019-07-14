@@ -1,0 +1,89 @@
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-left: -10px;
+  height: 30px;
+  background-color: #ddd;
+}
+
+.footer ul {
+  margin-top: auto;
+  margin-right: 15px;
+}
+
+.footer ul li a, footer ul li a:hover{
+  display: inline-block;
+  margin: 8px auto;
+  color: grey;
+}
+
+
+.left-side {
+  float: left;
+}
+
+.main-content{
+  width: 100%;
+}
+
+.logo {
+  display: block;
+  width: 26%;
+  margin-left: 37%;
+  padding-top: 110px;
+}
+
+.right-side {
+  float: right;
+}
+
+input[type="text"] {
+  width: 40%;
+  height: 44px;
+  margin-left: 30%;
+  padding-left: 15px;
+  margin-top: 32px;
+  border-radius: 22px;
+  border-width: 1px;
+  border-color: #222;
+  font: 16px arial,sans-serif;
+}
+
+.buttons {
+  display: inline-block;
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 35px;
+}
+
+input[type="button"] {
+  text-align: center;
+  margin: auto;
+  height: 35px;
+  border: none;
+  border-radius:5px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin-left: -35px;
+  margin-right: 40px;
+}
+
+ul li {
+  display: inline-block;
+  padding-left: 15px;
+  font-size: 10pt;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}

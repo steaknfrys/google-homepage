@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Google</title>
-    <link rel="stylesheet" href="main.csss">
+    <link rel="stylesheet" href="main.css">
   </head>
   <body>
     <!-- top navigation bar -->
@@ -23,12 +23,16 @@
 
     <!-- Search Bar -->
     <div class="main-content">
-      <img src="images/logo.png" alt="google logo">
+      <img class="logo" src="images/logo.png" alt="google logo">
       <form class="search" action="index.html" method="post">
-        <input type="text" name="passage">
+        <input class="search-bar" type="text" name="passage">
         <br>
-        <input type="button" name="search" value="Google Search">
-        <input type="button" name="lucky" value="I'm Feeling Lucky">
+        <div class="buttons">
+          <center>
+            <input type="button" name="search" value="Google Search">
+            <input type="button" name="lucky" value="I'm Feeling Lucky">
+          </center>
+        </div>
       </form>
     </div>
 
